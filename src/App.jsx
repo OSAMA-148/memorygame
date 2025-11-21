@@ -1,11 +1,11 @@
-import './App.css'
+import GameHeader from "./components/GameHeader";
 
 function App() {
 
   return (
-    <>
-      <h1>Memory Game</h1>
-    </>
+    <div className="app">
+      <GameHeader score={2} moves={5} />
+    </div>
   )
 }
 
